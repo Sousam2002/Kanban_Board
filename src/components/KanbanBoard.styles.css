@@ -1,0 +1,29 @@
+.kanban-board {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kanban-board-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.horizontal-cards-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+}
+
+.group-header {
+  padding-left: 13px;
+  padding-bottom: 5px;
+}
+.card-count {
+  padding-left: 70%;
+}
+
